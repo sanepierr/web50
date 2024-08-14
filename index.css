@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #202124;
+    color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+nav{
+    height: 48px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 6px 0;
+    position: fixed;
+    top: 10px;
+    left: 0;
+    right: 10px;
+}
+.logo{
+    height: 92px;
+}
+.logo img{
+    height: 100%;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    transition: text-decoration 5s;
+    margin: 2px;
+}
+a:hover{
+    text-decoration: underline;
+}
+.form-container{
+    height: 142px;
+    width: 100%;
+    
+}
+.searchbar{
+    width: 80%;
+    margin: 10px auto;
+    background-color: transparent;
+    border: 1px solid #F0F0F0;
+    display: block;
+    height: 48px;
+    border-radius: 24px;
+    max-width: 790px;
+    color: inherit;
+    padding: 0 20px;
+    font-size: inherit;
+}
+.searchbar:focus{
+    outline: none;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+.submitbutton{
+    height: 36px;
+    box-shadow: 0px 0px 5px 1.1px rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+    background-color: #303134;
+    border: none;
+    color: inherit;
+    padding: 2px 20px;
+}
+.submitbutton:hover{
+    border: 1px solid lightgray;
+    border-radius: 4px;
+
+}
+
+.logo{
+    position: relative;
+}
+.tooltip{
+    position: absolute;
+    right: 8px;
+    bottom: 0;
+    color: #4487f6;
+    font: 16px;
+    font-weight: bold;
+
+
+}
+
+
