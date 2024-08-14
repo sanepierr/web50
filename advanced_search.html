@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="advanced_search.css">
+    </head>
+    <body>
+        <nav class="nav-container">
+            <div class="left-nav"><a href="./index.html"><img src="./googlelogo_light_color_272x92dp.png"></a></div>
+            <div class="right-nav">
+                <div><a href="./index.html">Back</a></div>
+                <div><a href="./image_search.html">Images</a></div>
+                <div><a href="advanced_search.html">Advanced search</a></div>
+            </div>
+        </nav>
+        <h1>Advanced Search</h1>
+        <hr>
+        <div class="titled">Find pages with...</div>
+        <div class=form-container>
+            <form action="https://www.google.com/search?as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=" method="get" name="f">
+
+                <div class="label-container">
+                    <label>all these words:</label>
+                    <input class="advanced-searchbar" type="text" name="as_q">
+                </div>
+
+                <div class="label-container">
+                    <label>this exact word or phrase:</label>
+                    <input class="advanced-searchbar" type="text" name="as_epq">
+                </div>
+
+                <div class="label-container">
+                    <label>any of these words:</label>
+                    <input class="advanced-searchbar" type="text" name="as_oq">
+                </div>
+
+                <div class="label-container">
+                    <label>none of these words:</label>
+                    <input class="advanced-searchbar" type="text" name="as_eq">
+                </div>
+                    <input class="advanced-searchbar" type="hidden" name="as_qdr">
+                    <input class="advanced-searchbar" type="hidden" name="as_occt">
+                    <input class="advanced-submitbutton" type="submit" value="Advanced Search">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
+
